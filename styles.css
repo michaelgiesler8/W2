@@ -1,0 +1,112 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background: linear-gradient(to bottom, #f5f7fa, #cecfe2);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 3rem;
+    color: #00509e;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 25px;
+    box-shadow: 0 8px rgba(0, 0, 0, 0.3);
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.store-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.store-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #333;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 12px 25px;
+    border-radius: 12x;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+button:active {
+    transform: translateY(2px);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.team1-btn {
+    background: linear-gradient(135deg, #0077b6, #0096c7);
+    color: #fff;
+}
+
+.team1-btn:hover {
+    background: linear-gradient(135deg, #00509e, #0077b6);
+}
+
+.team2-btn {
+    background: linear-gradient(135deg, #d43f5b, #ff6f61);
+    color: #fff;
+}
+
+.team2-btn:hover {
+    background: linear-gradient(135deg, #b83244, #d43f5b);
+}
+
+.reset-btn {
+    background: linear-gradient(135deg, #ffd166, #fcbf49);
+    color: #000;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px 30px;
+}
+
+.reset-btn:hover {
+    background: linear-gradient(135deg, #fcbf49, #ffa500);
+}
+
+footer {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: #00509e;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 -3px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2rem;
+}
